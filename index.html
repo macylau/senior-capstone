@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Model Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Bikes</li>
+            <li>Gear</li>
+            <li>Ari Announcement</li>
+            <li>About</li>
+            <li>Contact Us</li>
+        </ul>
+    </nav>
+    <div class="hero">
+        <div class="hero-text">
+            <h1>La Sal Peak</h1>
+            <p>The Do-It-All Enduro Bike</p>
+        </div>
+    </div>
+    <div class="container">
+        <model-viewer src="/images/test.glb" alt="A 3D model of a bike" src="images/test.glb" shadow-intensity="1" camera-controls touch-action="pan-y" style="width: 100%; height: 500px;" ios-src="images/test/glb">
+        </model-viewer>
+        <a href="images/test.glb" rel="ar" class="ar-button">
+            View Bike in 3D
+        </a>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

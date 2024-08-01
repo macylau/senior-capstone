@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #1E1E1E;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.hero {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    height: 100vh; 
+    background: url('images/BME-Nebo-2024-BW-116.jpg.png') no-repeat center center/cover;
+    color: white;
+}
+
+.hero-text {
+    padding-bottom: 50px;
+    padding-left: 100px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.hero-text p {
+    margin: 0;
+}
+
+
+.container {
+    text-align: center;
+    margin: 20px;
+}
+
+.ar-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #1E1E1E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.ar-button:hover {
+    background-color: #333;
+}
+
+.ar-button img {
+    vertical-align: middle;
+    margin-right: 8px;
+}
