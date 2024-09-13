@@ -24,10 +24,19 @@
         </div>
     </div>
     <div class="container">
-        <model-viewer src="/images/test.glb" alt="A 3D model of a bike" src="images/test.glb" shadow-intensity="1" camera-controls touch-action="pan-y" style="width: 100%; height: 500px;" ios-src="images/test.glb">
-        </model-viewer>
+        <!-- <model-viewer src="/images/test.glb" alt="A 3D model of a bike" src="images/test.glb" shadow-intensity="1" camera-controls touch-action="pan-y" style="width: 100%; height: 500px;" ios-src="images/test.glb">
+        </model-viewer> -->
         
-        <a href="/images/sneaker_airforce.usdz" rel="ar">
+        <model-viewer src="/images/sneaker_airforce.usdz"
+              alt="A 3D model of an object"
+              ar
+              ar-modes="webxr quick-look"
+              camera-controls
+              auto-rotate
+              style="width: 100%; height: 500px;">
+        </model-viewer>
+
+        <a href="/images/sneaker_airforce.usdz" rel="ar">Click to view in AR
           </a>
 
         <!-- <a href="images/Bicycle.usdz" rel="ar" class="ar-button" id="ar-link">
