@@ -1,0 +1,14 @@
+{
+    "headers": [
+      {
+        "source": "/images/sneaker_airforce.usdz",
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "model/vnd.usdz+zip"
+          }
+        ]
+      }
+    ]
+  }
+  
